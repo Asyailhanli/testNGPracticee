@@ -15,7 +15,9 @@ public class Driver {
     2-Driver'i kapatacağımız zaman da public static void closeDriver() methodu oluşturmak. İstediğimiz zaman
     bu methodla driver'i kapatacağız
      */
+   private Driver(){
 
+   }
     static WebDriver driver;
 
     public static WebDriver getDriver() {
